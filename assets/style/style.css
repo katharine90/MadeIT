@@ -1,1 +1,203 @@
-/*PRIVET MIR*/
+body{
+
+width:100%;
+
+}
+
+
+
+.row{
+
+width: 100%;
+
+background: transparent;
+
+}
+
+
+
+#main-nav{
+
+background: #0072bc;
+
+height:80px;
+
+margin:0px;
+
+border-radius: 0px;
+
+border:none;
+
+}
+
+
+
+#navContainer, #navHeader, #header-nav, .liNav{
+
+height:80px;
+
+margin-top: 5px;
+
+}
+
+
+
+#loginNav{
+
+margin-top:80px;
+
+}
+
+
+
+#main-nav a {
+
+color:#fff;
+
+height:auto;
+
+}
+
+
+
+#home, #OmOss, #service, #partners, #footer{
+
+width:100%;
+
+}
+
+
+
+#home{
+
+height: 600px;
+
+background: grey;
+
+margin-top: 130px;
+
+}
+
+
+
+#OmOss{
+
+height:400px;
+
+}
+
+
+
+#OmOss h2{
+
+color:#ffc426;
+
+text-align: center;
+
+}
+
+
+
+#carousel-example-generic{
+
+width:100%;
+
+height:300px;
+
+}
+
+
+
+.item{
+
+display:block;
+
+width:100%;
+
+text-align: center;
+
+}
+
+
+
+.item img{
+
+margin-left: 320px;
+
+}
+
+#service{
+
+background: #e1e1e1;
+
+}
+
+
+
+#service h2{
+
+color:#0072bc;
+
+text-align: center;
+
+padding:50px 0px
+
+}
+
+
+
+.blue{
+
+background: #0072bc;
+
+height:400px;
+
+}
+
+
+
+.white{
+
+background: #fff;
+
+height:400px;
+
+}
+
+
+
+#partners{
+
+background: #2e2e2e;
+
+height:300px;
+
+}
+
+
+
+.part{
+
+text-align: center;
+
+color:#5f5f5f;
+
+}
+
+
+
+#form{
+
+background: #c7c7c7;
+
+}
+
+
+
+#footer{
+
+height:200px;
+
+background: #013b60;
+
+}
