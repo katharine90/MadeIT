@@ -4,6 +4,7 @@
 <title>Made-IT</title>
 <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link rel="stylesheet" href="../style/style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -34,6 +35,12 @@
       <li class="loginLi"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
               <img id="menu" src="../resources/menu-icon.png">
+
+     <ul class="nav navbar-nav navbar-right">
+      <li ><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+
     </nav>
 
 <!-- Home article -->
@@ -101,7 +108,6 @@
 	<p id="omOssInfo">We are a company specialized in customized didactic online-courses. Our clients, spanning multiple areas of expertise.
 What we offer is building courses for our clients, either through streaming services with a hired-in teacher (either provided by our client, or by us depending on the price package selected) or through other, non-specified means. These courses are then used by our clients in their respective agency.
 <br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 </div>  
 </div>
@@ -164,12 +170,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <!-- END Footer -->
 
 <script type="text/javascript">
+
  var menu = document.getElementById("menu");
  var nav = document.getElementById("header-nav");
     
     $(menu).click(function(){
     $(nav).toggleClass("show");
     })
+
 </script>    
 </body>
 </html>
