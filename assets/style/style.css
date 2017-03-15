@@ -83,6 +83,7 @@ margin-top: 130px;
 #OmOss{
 
 height:400px;
+background: #3B3B40;
 
 }
 
@@ -91,12 +92,23 @@ height:400px;
 #OmOss h2{
 
 color:#ffc426;
-
+padding-top: 3%;
+padding-bottom: 2.5%;
 text-align: center;
+font-family: 'Alegreya SC';
 
 }
 
+#omOssInfo{
+	text-align: center;
+	color:#ffc426;
+	align-content: center;
+	width: 90%;
+	margin-left: 10%;
+	font-family: 'Alegreya SC';
+	font-size: 120%;
 
+}
 
 #carousel-example-generic{
 
@@ -128,7 +140,7 @@ margin-left: 320px;
 
 #service{
 
-background: #e1e1e1;
+
 
 }
 
