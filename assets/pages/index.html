@@ -3,12 +3,15 @@
 <head>
 <title>Made-IT</title>
 <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="../style/style.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+<link href="https://fonts.googleapis.com/css?family=Dosis|Merriweather" rel="stylesheet"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+    
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
     
@@ -23,16 +26,22 @@
       <li class="liNav"><a href="#OmOss">Om oss</a></li>
       <li class="liNav"><a href="#Service">Service</a></li>
       <li class="liNav"><a href="#footer">Kontakt</a></li>
+    
     </ul>
   </div>
 </nav>
 <!-- END Navigation bar -->
 
     <nav class="navbar navbar-default navbar-fixed-top" id="loginNav">
+        <div id="socialHeader">
+    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
      <ul class="nav navbar-nav navbar-right" id="loginUl">
       <li class="loginLi"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
       <li class="loginLi"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
+    </ul> 
               <img id="menu" src="../resources/menu-icon.png">
     </nav>
 
@@ -101,7 +110,7 @@
 	<p id="omOssInfo">We are a company specialized in customized didactic online-courses. Our clients, spanning multiple areas of expertise.
 What we offer is building courses for our clients, either through streaming services with a hired-in teacher (either provided by our client, or by us depending on the price package selected) or through other, non-specified means. These courses are then used by our clients in their respective agency.
 <br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Vi är ett företag som har specaliserat sig på att göra digitala utbildningar. Du väljer vilken nivå du vill ha hjälp på. Vi är ett nytt företag på marknaden och vi är hungriga. </p>
 </div>
 </div>  
 </div>
@@ -109,56 +118,82 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <!--  Service -->
 <div id="service">
-<h2>- Service -</h2>
+<h2>- SERVICE -</h2>
 <div class="row">
-<div class="col-lg-6 col-md-6 col-xs-12 blue"></div>
-<div class="col-lg-6 col-md-6 col-xs-12 white"></div>
+<div class="col-lg-6 col-md-6 col-xs-12 blue webbinar">
+<div class="serviceInfo">
+<h3 class="service">Webbinarier</h3>
+<p class="serviceP">Våra webbinarier är lärarledda expertföreläsningar som du följer i realtid via webben. Under webbinariet finns möjlighet att ställa frågor och få svar direkt. Webbinarierna spelas också in för att kunna finnas tillgängliga även i efterhand. Webbinarieformatet använder vi bland annat för lunchföreläsningsserier med nyhetsinnehåll.</p>
 </div>
+    </div>
+<div class="col-lg-6 col-md-6 col-xs-12 white eKurser">
+<div class="serviceInfo">
+<h3 class="service">E-kurser</h3>
+<p class="serviceP">Kurser där innehållet förmedlas av såväl lärare som via ljud, text, video och grafik på ett pedagogiskt sätt. Resultatet är ett effektivt upplägg som förstärker ditt lärande och gör kunskapen lättillgänglig. Du väljer själv när, var och i vilken takt du vill gå den. Kurserna avslutas alltid med ett kunskapsprov.</p></div>
+</div>
+    </div>
+    
 <div class="row">
-<div class="col-lg-6 col-md-6 col-xs-12 white"></div>
-<div class="col-lg-6 col-md-6 col-xs-12 blue"></div>
+<div class="col-lg-6 col-md-6 col-xs-12 white streaming">
+<div class="serviceInfo">
+<h3 class="service">Streaming</h3>
+<p class="serviceP">Streamingkurser är lärarledda föreläsningar eller lektioner som vi gör tillgängliga för en större publik genom streaming via webben.Till skillnad mot ett webbinarium så finns det inte möjlighet till tvåvägskommunikation. I det här formatet kan du exempelvis ta del av våra nyhetsdagar.</p>
+    </div>
+    </div>
+<div class="col-lg-6 col-md-6 col-xs-12 blue">
+<h3 class="service"></h3>
+</div>
 </div>
 </div>
 <!-- END service -->
     
 <!-- Partners -->
 <div id="partners">
+<h2 class="partners">- PARTNERS -</h2>
 <div class="row">
-<div class="col-lg-4 col-md-4 col-xs-12 part"><h2>FÖRETAG 1</h2></div>
-<div class="col-lg-4 col-md-4 col-xs-12 part"><h2>FÖRETAG 2</h2></div>
-<div class="col-lg-4 col-md-4 col-xs-12 part"><h2>FÖRETAG 3</h2></div>
+<div class="col-lg-4 col-md-4 col-xs-12 part"><img src="../resources/argusvision.png"></div>
+<div class="col-lg-4 col-md-4 col-xs-12 part"><img src="../resources/eclipse_1024.png"></div>
+<div class="col-lg-4 col-md-4 col-xs-12 part"><img src="../resources/infin-it.png"></div>
 </div>
 </div>
 <!-- END Partners -->
     
 <!-- Form -->
 <div id="form">
+    <h2 id="formH2">- ASK US ANYTHING -</h2>
 <form>
 
   <div class="form-group">
-    <label for="nameInput">Namn</label>
-    <input type="text" class="form-control" id="nameInput" placeholder="Namn">
+    <input type="text" class="form-control" id="nameInput" placeholder="Name">
   </div>
   <div class="form-group">
-    <label for="emailInput">Email</label>
     <input type="text" class="form-control" id="emailInput" placeholder="Email">
   </div>
   <div class="form-group">
-    <label for="emailInput">Ärande</label>
-    <input type="text" class="form-control" id="subjectInput" placeholder="Ärande">
+    <input type="text" class="form-control" id="subjectInput" placeholder="Subject">
   </div>
-<textarea class="form-control" rows="3"></textarea>
+  <div class="form-group">
+<textarea class="form-control" rows="3" placeholder="Your message here"></textarea>
+    </div>
   <button type="submit" class="btn btn-default">Submit</button>
 </form>
 </div>
 <!-- END Form -->
     
+<!-- Social icons -->
+<div class="footerSocial">
+    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+</div>
+<!--  END social icons -->
+    
 <!-- Footer -->
-<div id="footer">
+<div id="footer"> 
 <div class="row">
-<div class="col-lg-4 col-md-4 col-xs-12">Madeit@info.se</div>
-<div class="col-lg-4 col-md-4 col-xs-12">LOGO</div>
-<div class="col-lg-4 col-md-4 col-xs-12">+46 707654322</div>
+<div class="col-lg-4 col-md-4 col-xs-12 footerContent"><span class="glyphicon glyphicon-send footerIcon"></span> Madeit@info.se</div>
+<div class="col-lg-4 col-md-4 col-xs-12 footerContent">LOGO</div>
+<div class="col-lg-4 col-md-4 col-xs-12 footerContent"><span class="glyphicon glyphicon-earphone footerIcon"></span> +46 707654322</div>
 </div>
 </div>
 <!-- END Footer -->

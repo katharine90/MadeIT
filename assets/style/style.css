@@ -3,7 +3,7 @@ width:100%;
 }
 
 .row{
-width: 100%;
+width: 101%;
 background: transparent;
 }
 
@@ -18,6 +18,12 @@ border:none;
 #navContainer, #navHeader, #header-nav, .liNav{
 height:80px;
 margin-top: 5px;
+}
+
+#socialHeader {
+    width: 150px;
+    float: left;
+    padding: 5px 0px;
 }
 
 #loginNav{
@@ -48,10 +54,36 @@ margin-top: 130px;
 height:400px;
 }
 
+#Om-oss p{
+font-family: 'Dosis', sans-serif;
+font-size:18px;
+}
+
+p{
+font-family: 'Dosis', sans-serif;
+font-size:18px;
+line-height: 30px;
+}
+
+h1, h2, h3, h4, h5, h5{
+font-family: 'Merriweather', serif;
+}
+
 #OmOss h2{
 color:#ffc426;
 text-align: center;
+font-family: 'Merriweather', serif;
 }
+
+#omOssInfo{
+ 	text-align: center;
+ 	color:#ffc426;
+ 	align-content: center;
+ 	width: 90%;
+ 	margin-left: 10%;
+font-family: 'Alegreya SC';
+font-size: 120%; 
+ }
 
 #carousel-example-generic{
 width:100%;
@@ -65,13 +97,17 @@ text-align: center;
 }
 
 .item img{
-margin-left: 320px;
-}
+margin-left: 5%;
+width: 90%;
+size: 1135, 425
+ }
+ 
 #service{
 background: #e1e1e1;
 }
 
 #service h2{
+font-family: 'Merriweather', serif;
 color:#0072bc;
 text-align: center;
 padding:50px 0px
@@ -87,9 +123,54 @@ background: #fff;
 height:400px;
 }
 
+
+h3.service {
+    width: 100%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding: 20px 0px;
+    color: #fff;
+}
+
+.webbinar{
+background: url(../resources/webbinar.jpeg) no-repeat;
+background-size: cover;
+}
+
+.eKurser{
+background: url(../resources/eKurser.jpeg) no-repeat;
+background-size: cover;
+}
+
+.streaming{
+background: url(../resources/macimg.jpeg) no-repeat;
+background-size: cover;
+}
+
+p.serviceP {
+    color: black;
+    font-size: 18px;
+}
+
+.serviceInfo {
+    width: 50%;
+background: rgba(0, 114, 188, 0.82);
+    height: 360px;
+    margin: 20px 20px;
+    padding: 12px;
+}
+
 #partners{
 background: #2e2e2e;
-height:300px;
+height:380px;
+}
+
+h2.partners {
+    font-family: 'Merriweather', serif;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    color: #bebebe;
 }
 
 .part{
@@ -97,13 +178,22 @@ text-align: center;
 color:#5f5f5f;
 }
 
+.part img {
+    width: 160px;
+}
+
 #form{
 background: #c7c7c7;
 }
 
-#footer{
-height:200px;
-background: #013b60;
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input#nameInput, input#emailInput, input#subjectInput, textarea.form-control{
+width:50%;
 }
 
 #menu{
@@ -111,10 +201,70 @@ width: 40px;
 display: none;
 }
 
+#formH2{
+    width:100%;
+    font-family: 'Merriweather', serif;
+    padding:50px 0px;
+    text-align: center;
+}
+
+#form{
+height: 460px;
+}
+
+button.btn.btn-default {
+    float: right;
+    margin-right: 25%;
+}
+
+#footer{
+background: #013b60;
+}
+
+.footerContent{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.footerIcon{
+padding: 0px 10px;
+color: orange;
+}
+
+.footerSocial{
+width:100%;
+height:40px;
+background: #2e2e2e;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+a .fa {
+    color: orange;
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+.social{
+color:orange;
+padding:10px 15px;
+font-size: 20px;
+float:right;
+}
+
 @media screen and (max-width: 770px){
 #navContainer, #navHeader, #header-nav, .liNav {
 height: auto;
 }
+    
+#socialHeader{
+display:none;
+    }
     
 #header-nav {
 margin-top: 80px;
@@ -134,5 +284,17 @@ cursor: pointer;
     
 #home{
 margin-top: 175px;
+}
+    
+input#nameInput, input#emailInput, input#subjectInput, textarea.form-control{
+width:80%;
+}
+    
+.footerContent{
+ height:100px;   
+}
+    
+.serviceInfo {
+    width: 94%;
 }
 }
